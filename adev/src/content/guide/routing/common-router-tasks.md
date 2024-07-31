@@ -134,7 +134,7 @@ The [wildcard route](guide/routing/common-router-tasks#setting-up-wildcard-route
 
 Often, as a user navigates your application, you want to pass information from one component to another.
 For example, consider an application that displays a shopping list of grocery items.
-Each item in the list has a unique `id`.
+Each item in the list has a unique ``id``.
 To edit an item, users click an Edit button, which opens an `EditGroceryItem` component.
 You want that component to retrieve the `id` for the grocery item so it can display the right information to the user.
 
